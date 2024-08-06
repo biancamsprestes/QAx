@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20231018 16:22:57.402" rpa="false" schemaversion="4">
+<suite id="s1" name="Home" source="C:\QAx\projects\walkdog-robot\home.robot">
+<test id="s1-t1" name="Home page deve estar online" line="7">
+<kw name="New Page" library="Browser">
+<arg>https://walkdog.vercel.app/</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<msg timestamp="20231018 16:23:13.603" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg timestamp="20231018 16:23:13.604" level="INFO">See also file:///C:/QAx/projects/walkdog-robot/playwright-log.txt for additional details.</msg>
+<msg timestamp="20231018 16:23:13.604" level="FAIL">TimeoutError: browserType.launch: Timeout 10000ms exceeded.
+=========================== logs ===========================
+&lt;launching&gt; C:\Python312\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1084\chrome-win\chrome.exe --disable-field-trial-config --disable-background-networking --enable-features=NetworkService,NetworkServiceInProcess --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\Users\BIANCA~1.PRE\AppData\Local\Temp\playwright_chromiumdev_profile-5pcNbN --remote-debugging-pipe --no-startup-window
+&lt;launched&gt; pid=21072
+============================================================
+Tip: Use "Set Browser Timeout" for increasing the timeout or double check your locator as the targeted element(s) couldn't be found.</msg>
+<status status="FAIL" starttime="20231018 16:23:02.378" endtime="20231018 16:23:13.623"/>
+</kw>
+<status status="FAIL" starttime="20231018 16:23:02.362" endtime="20231018 16:23:13.624">TimeoutError: browserType.launch: Timeout 10000ms exceeded.
+=========================== logs ===========================
+&lt;launching&gt; C:\Python312\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1084\chrome-win\chrome.exe --disable-field-trial-config --disable-background-networking --enable-features=NetworkService,NetworkServiceInProcess --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\Users\BIANCA~1.PRE\AppData\Local\Temp\playwright_chromiumdev_profile-5pcNbN --remote-debugging-pipe --no-startup-window
+&lt;launched&gt; pid=21072
+============================================================
+Tip: Use "Set Browser Timeout" for increasing the timeout or double check your locator as the targeted element(s) couldn't be found.</status>
+</test>
+<doc>Suite de testes da home page</doc>
+<status status="FAIL" starttime="20231018 16:22:57.408" endtime="20231018 16:23:13.708"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Home">Home</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

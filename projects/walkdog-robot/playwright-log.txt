@@ -1,0 +1,54 @@
+{"level":30,"time":"2023-10-18T19:23:02.021Z","pid":4188,"hostname":"NB-002712","msg":"Listening on 53735"}
+{"level":30,"time":"2023-10-18T19:23:02.356Z","pid":4188,"hostname":"NB-002712","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-18T19:23:02.358Z","pid":4188,"hostname":"NB-002712","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-18T19:23:02.374Z","pid":4188,"hostname":"NB-002712","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-18T19:23:02.375Z","pid":4188,"hostname":"NB-002712","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-18T19:23:02.383Z","pid":4188,"hostname":"NB-002712","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-10-18T19:23:02.384Z","pid":4188,"hostname":"NB-002712","msg":"currentBrowser: undefined"}
+{"level":30,"time":"2023-10-18T19:23:13.457Z","pid":4188,"hostname":"NB-002712","msg":"Error of node method  newPage"}
+================= Original suppressed error =================
+browserType.launch: Timeout 10000ms exceeded.
+=========================== logs ===========================
+<launching> C:\Python312\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1084\chrome-win\chrome.exe --disable-field-trial-config --disable-background-networking --enable-features=NetworkService,NetworkServiceInProcess --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\Users\BIANCA~1.PRE\AppData\Local\Temp\playwright_chromiumdev_profile-5pcNbN --remote-debugging-pipe --no-startup-window
+<launched> pid=21072
+============================================================
+    at _newBrowser (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9371:49)
+    at PlaywrightState.getOrCreateActiveBrowser (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9500:37)
+    at newPage (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9680:43)
+    at PlaywrightServer.newPage (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10006:34)
+    at handleUnary (C:\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:852:17) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2023-10-18T19:23:13.550Z","pid":4188,"hostname":"NB-002712","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:8268:11)
+    at takeScreenshot (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:8307:3)
+    at PlaywrightServer.takeScreenshot (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10006:34)
+    at handleUnary (C:\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:852:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+=============================================================
+{"level":30,"time":"2023-10-18T19:23:13.551Z","pid":4188,"hostname":"NB-002712","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9470:15)
+    at PlaywrightServer.getActiveBrowser (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9991:59)
+    at PlaywrightServer.setTimeout (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10237:57)
+    at handleUnary (C:\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:852:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+=============================================================
+{"level":30,"time":"2023-10-18T19:23:13.703Z","pid":4188,"hostname":"NB-002712","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-18T19:23:13.703Z","pid":4188,"hostname":"NB-002712","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9470:15)
+    at PlaywrightServer.getActiveBrowser (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9991:59)
+    at PlaywrightServer.setTimeout (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10237:57)
+    at handleUnary (C:\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:852:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+=============================================================
+{"level":30,"time":"2023-10-18T19:23:13.789Z","pid":4188,"hostname":"NB-002712","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-18T19:23:13.789Z","pid":4188,"hostname":"NB-002712","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-18T19:23:14.358Z","pid":4188,"hostname":"NB-002712","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-10-18T19:23:14.358Z","pid":4188,"hostname":"NB-002712","msg":"End of node method closeAllBrowsers"}
